@@ -1,0 +1,293 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /* background-image: url('pexels-ylanite-koppens-843227.jpg  ');
+    background-attachment: fixed;
+    background-size: cover; */
+    /* opacity: .5%; */ 
+    background-color: silver;
+}
+/* .Container{
+    background-image: url('https://download.hipwallpaper.com/desktop/1920/1080/9/23/K4NYGj.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 600px;
+} */
+/* .web-title{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-60%);
+    z-index: 2;
+    font-family: sans-serif;
+}
+.web-title h1{
+    font-size: 60px;
+    color: rgb(134, 128, 192);
+    text-align: center;
+    margin: 0;  
+}
+.web-title p{
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(181, 216, 27);
+    text-align: left;
+    margin: 0;
+    letter-spacing: 6px;
+    margin-top: 10px;
+}
+.transparent{
+    background: #1010105c;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.web-title button{
+    background-color: #c49338;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.web-title button:hover{
+    
+        background-color: rgb(136, 119, 119);
+        color: white;
+      
+} */
+.About{
+    width: 50%;
+    padding: 0 200px;
+ }
+.About{
+	font-size: 18px;
+	color: #1c1818ad;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+	font-weight: 500;
+	position: relative;
+}
+.About ::before{
+    text-align: center  ;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    content: ' ';
+	position: absolute;
+	left:50;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 7px;
+	/* box-sizing: border-box; */
+	width: 50px;
+
+}
+.contact .info {
+    width: 100%;
+    background: #fff;
+  }
+  .contact .info i {
+    font-size: 20px;
+    color: #0563bb;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #eef7ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #45505b;
+  }
+  .contact .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #728394;
+  }
+  .contact .info .email, .contact .info .phone {
+    margin-top: 40px;
+  }
+  .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
+    background: #0563bb;
+    color: #fff;
+  }
+  .contact .php-email-form {
+    width: 100%;
+    background: #fff;
+  }
+  .contact .php-email-form .form-group {
+    padding-bottom: 8px;
+  }
+  .contact .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: left;
+    padding: 15px;
+    font-weight: 600;
+  }
+  .contact .php-email-form .error-message br + br {
+    margin-top: 25px;
+  }
+  .contact .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+  }
+  .contact .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+  }
+  .contact .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+  }
+  .contact .php-email-form input, .contact .php-email-form textarea {
+    border-radius: 4px;
+    box-shadow: none;
+    font-size: 14px;
+  }
+  .contact .php-email-form input {
+    height: 44px;
+  }
+  .contact .php-email-form textarea {
+    padding: 10px 12px;
+  }
+  .contact .php-email-form button[type=submit] {
+    background: #0563bb;
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+  }
+  .contact .php-email-form button[type=submit]:hover {
+    background: #0678e3;
+  }
+
+  /* Footer Section */
+  /* Footer */
+/* #footer {
+	background-image: linear-gradient(60deg, #1d3f69 0%, #485563 100%);
+}
+#footer .footer {
+	min-height: 200px;
+	flex-direction: column;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+#footer h2 {
+	color: white;
+	font-weight: 500;
+	font-size: 1.8rem;
+	letter-spacing: 0.1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#footer .social-icon {
+	display: flex;
+	margin-bottom: 30px;
+}
+#footer .social-item {
+	height: 50px;
+	width: 50px;
+	margin: 0 5px;
+}
+#footer .social-item img {
+	filter: grayscale(1);
+	transition: 0.3s ease filter;
+}
+#footer .social-item:hover img {
+	filter: grayscale(0);
+}
+#footer p {
+	color: white;
+	font-size: 1.3rem;
+}
+End Footer */
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+#footer {
+  background: #f7f8f9;
+  color: #45505b;
+  font-size: 14px;
+  text-align: center;
+  padding: 30px 0;
+}
+#footer h3 {
+  font-size: 36px;
+  font-weight: 700;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0 0 15px 0;
+}
+#footer p {
+  font-size: 15;
+  font-style: italic;
+  padding: 0;
+  margin: 0 0 40px 0;
+}
+#footer .social-links {
+  margin: 0 0 40px 0;
+}
+#footer .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #0563bb;
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+#footer .social-links a:hover {
+  background: #0678e3;
+  color: #fff;
+  text-decoration: none;
+}
+#footer .copyright {
+  margin: 0 0 5px 0;
+}
+#footer .credits {
+  font-size: 13px;
+}
